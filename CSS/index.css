@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-header {
+body {
   background: url(../image/home.jfif);
   background-size: cover;
   background-position: center center;
@@ -146,28 +146,14 @@ footer p {
   padding-bottom: 10px;
 }
 
-th {
-  font-size: 15px;
-}
-
-td {
-  font-size: 10px;
-}
-
-.ico a {
-  font-size: 15px;
-  padding: 10px;
+.row a {
   color: #fff;
 }
 
-td a:hover {
-  color: rgba(251, 84, 112, 0.903);
+.row a:hover {
+  color: crimson;
 }
 
-th,
-td {
-  padding-left: 200px;
-}
 
 .texty {
   animation-duration: 0.5s;

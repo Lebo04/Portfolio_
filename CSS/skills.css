@@ -1,6 +1,7 @@
-* {
+*{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 section {
@@ -8,18 +9,17 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .navbar .navbar-brand {
   font-size: 30px;
 }
 
 .social {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    right: 2%;
-    transform: translateY(40%);
-  }
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 2%;
+  transform: translateY(40%);
+}
 
 .social a {
   display: block;
@@ -38,11 +38,11 @@ section {
   color: #111;
 }
 
-#hp {
+img {
   margin-right: 70px;
   margin-bottom: 30px;
   float: right;
-  transform: translateY(-50%);
+  transform: translateY(-70%);
 }
 
 .skills .title {
@@ -72,6 +72,7 @@ section {
   background: #111;
   transform: translateX(-50%);
 }
+
 .skills .title::after {
   position: absolute;
   bottom: -12px;
@@ -84,14 +85,17 @@ section {
 .skills .skills-cont .colu {
   width: calc(50% - 30px);
 }
+
 .skills .skills-cont .lefty .texty {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 10px;
 }
+
 .skills .skills-cont .lefty p {
   text-align: justify;
 }
+
 .skills .skills-cont .lefty a {
   display: inline-block;
   background: crimson;
@@ -104,34 +108,41 @@ section {
   border: 2px solid crimson;
   transition: all 0.3s ease;
 }
+
 .skills .skills-cont .lefty a:hover {
   color: crimson;
   background: none;
 }
+
 .skills .skills-cont .right .bars {
   margin-bottom: 15px;
 }
+
 .skills .skills-cont .righty .info {
   display: flex;
   margin-bottom: 5px;
   align-items: center;
   justify-content: space-between;
 }
+
 .skills .skills-cont .righty span {
   font-weight: 500;
   font-size: 18px;
   padding: 15px;
 }
+
 .skills .skills-cont .righty i {
   padding-right: 20px;
   font-size: 40px;
 }
+
 .skills .skills-cont .righty .line {
   height: 10px;
   width: 100%;
   background: lightgrey;
   position: relative;
 }
+
 .skills .skills-cont .righty .line::before {
   content: "";
   position: absolute;
@@ -140,15 +151,19 @@ section {
   top: 0%;
   background: crimson;
 }
+
 .skills .skills-cont .righty .html::before {
   width: 80%;
 }
+
 .skills .skills-cont .righty .css::before {
   width: 60%;
 }
+
 .skills .skills-cont .righty .js::before {
   width: 20%;
 }
+
 .skills .skills-cont .righty .mysql::before {
   width: 10%;
 }
@@ -161,6 +176,7 @@ section {
   font-size: 17px;
   font-weight: 600;
 }
+
 .lefty .texty {
   position: relative;
   font-size: 30px;
@@ -177,6 +193,7 @@ section {
   height: 3px;
   background: #111;
 }
+
 .lefty .texty::after {
   position: absolute;
   bottom: 0px;
@@ -200,25 +217,10 @@ footer p {
   padding-bottom: 10px;
 }
 
-th {
-  font-size: 15px;
-}
-
-td {
-  font-size: 10px;
-}
-
-.ico a {
-  font-size: 15px;
-  padding: 5px;
+.row a {
   color: #fff;
 }
 
-td a:hover {
-  color: rgba(251, 84, 112, 0.903);
-}
-
-th,
-td {
-  padding-left: 190px;
+.row a:hover {
+  color: crimson;
 }

@@ -1,9 +1,11 @@
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
 }
 
-section {
+body {
     background: url(../image/hiker-looks-up-at-vertical-mountain-peaks.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
@@ -100,6 +102,7 @@ section {
     padding-top: 20px;
     color: #fff;
     padding-bottom: 0px;
+    
   }
   
   footer p {
@@ -107,26 +110,12 @@ section {
     font-size: 10px;
     padding-bottom: 10px;
   }
-  
-  th {
-    font-size: 15px;
-  }
-  
-  td {
-    font-size: 10px;
-  }
-  
-  .ico a {
-    font-size: 15px;
-    padding: 10px;
+
+  .row a {
     color: #fff;
   }
-  
-  td a:hover {
-    color: rgba(251, 84, 112, 0.903);
+
+  .row a:hover {
+    color: crimson;
   }
-  
-  th,
-  td {
-    padding-left: 200px;
-  }
+ 
