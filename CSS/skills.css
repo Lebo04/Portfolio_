@@ -1,4 +1,6 @@
-*{
+*,
+*::after,
+*::before{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -157,11 +159,15 @@ img {
 }
 
 .skills .skills-cont .righty .css::before {
-  width: 60%;
+  width: 70%;
 }
 
 .skills .skills-cont .righty .js::before {
   width: 20%;
+}
+
+.skills .skills-cont .righty .boot::before {
+  width: 60%;
 }
 
 .skills .skills-cont .righty .mysql::before {

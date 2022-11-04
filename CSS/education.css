@@ -1,6 +1,9 @@
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -88,6 +91,10 @@ section {
   left: 50%;
   margin-left: -3px;
   margin-top: 170px;
+}
+
+.content {
+  text-align: center;
 }
 
 .containery {

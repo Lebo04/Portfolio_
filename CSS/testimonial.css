@@ -75,6 +75,7 @@ body {
 .card-container3,
 .card-container4,
 .card-container5,
+.card-container6,
 .front,
 .back {
   width: 21rem;
@@ -85,7 +86,8 @@ body {
 .card-container2,
 .card-container3,
 .card-container4,
-.card-container5 {
+.card-container5,
+.card-container6 {
   margin: 5rem;
 }
 
@@ -110,7 +112,7 @@ body {
   background-color: rgba(245, 154, 169, 0.903);
 }
 
-.card-container5 .back {
+.card-container5 .back   {
     font-size: 15px;
 }
 
@@ -118,7 +120,8 @@ body {
 .card-container2,
 .card-container3,
 .card-container4,
-.card-container5 {
+.card-container5,
+.card-container6 {
   position: relative;
 }
 
@@ -140,7 +143,8 @@ body {
 .card-container2:hover .front,
 .card-container3:hover .front,
 .card-container4:hover .front,
-.card-container5:hover .front {
+.card-container5:hover .front,
+.card-container6:hover .front {
   transform: rotateY(-180deg);
 }
 
@@ -148,7 +152,8 @@ body {
 .card-container2:hover .back,
 .card-container3:hover .back,
 .card-container4:hover .back,
-.card-container5:hover .back {
+.card-container5:hover .back,
+.card-container6:hover .back {
   transform: rotateY(0deg);
 }
 
@@ -156,7 +161,8 @@ body {
 .card-container2,
 .card-container3,
 .card-container4,
-.card-container5 {
+.card-container5,
+.card-container6 {
   perspective: 75rem;
 }
 
