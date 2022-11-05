@@ -36,7 +36,7 @@
 }
 
 body {
-  background: url(../image/hiker-looks-up-at-vertical-mountain-peaks.jpg);
+  background: url(../Assets/image/hiker-looks-up-at-vertical-mountain-peaks.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 130vh;
@@ -44,6 +44,7 @@ body {
 
 .we {
   text-align: center;
+  padding-bottom: 60px;
 }
 
 .we h2 {
@@ -106,10 +107,6 @@ form .form-control {
   font-size: 25px;
 }
 
-.contact .contact-cont {
-  display: flex;
-}
-
 .contact .texty {
   font-size: 30px;
   font-weight: 600;
@@ -129,15 +126,7 @@ form .form-control {
   align-items: left;
 }
 
-.contact .cont .righty {
-  align-items: right;
-  border-radius: 50px;
-  width: 40%;
-  padding-left: 80px;
-  padding-bottom: 20px;
-  padding-top: 0px;
-  margin-left: 100px;
-}
+
 
 .contact .righty form label {
   font-weight: 600;
@@ -208,5 +197,107 @@ footer p {
     width: 40%;
     font-size: 15px;
     font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  body {
+    height: 250vh;
+  }
+
+  main {
+    height: 230vh;
+  }
+
+  .contact .title {
+    font-size: 30px;
+  }
+
+  img {
+    width: 150px;
+  }
+
+  .contact .info .sub-title {
+    font-size: 15px;
+  }
+
+  .contact .info .head {
+    font-size: 18px;
+  }
+
+  .contact .info .head i {
+    font-size: 20px;
+  }
+
+  .contact .contact-cont {
+    flex-direction: column;
+  }
+
+  .contact .cont .righty {
+   margin-left: 0px;
+  }
+
+  input {
+    height: 30px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    height: 250vh;
+  }
+
+  main {
+    height: 220vh;
+  }
+
+  .contact .contact-cont {
+    flex-direction: column;
+  }
+
+  .contact .title {
+    font-size: 40px;
+  }
+
+  .contact .info .sub-title {
+    font-size: 20px;
+  }
+
+  .contact .info .head {
+    font-size: 20px;
+  }
+
+  .contact .info .head i {
+    font-size: 20px;
+  }
+
+  .contact .contact-cont {
+    flex-direction: column;
+  }
+
+  .contact .cont .righty {
+   margin-left: 0px;
+   margin-right: 0px;
+  }
+
+  input {
+    height: 30px;
+    width: 200px;
+  }
+
+  .contact .righty form .button button {
+    width: 20%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .contact .cont .righty {
+    width: 900px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    margin-left: 0px;
   }
 }

@@ -7,7 +7,7 @@
 }
 
 body {
-    background: url(../image/hiker-looks-up-at-vertical-mountain-peaks.jpg);
+    background: url(../Assets/image/hiker-looks-up-at-vertical-mountain-peaks.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh; 
@@ -131,3 +131,15 @@ body {
     }
   }
  
+  @media screen and (max-width: 300px) {
+    .about p {
+      font-size: 15px;
+      text-align: initial;
+    }
+    main {
+      height: 200vh;
+    }
+    body {
+      height: 200vh;
+    }
+  }

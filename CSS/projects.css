@@ -12,7 +12,7 @@
 
 
 body {
-  background: url(../image/canoe-resting-on-small-beach.jpg);
+  background: url(../Assets/image/canoe-resting-on-small-beach.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 40px;
@@ -91,5 +91,9 @@ footer {
 
   .row a:hover {
     color: crimson;
+  }
+
+  main {
+    padding-bottom: 60px;
   }
 
