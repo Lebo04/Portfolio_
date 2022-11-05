@@ -187,13 +187,14 @@ footer p {
   color: crimson;
 }
 
-@media screen and (max-width: 768px) {
-  .card-container1,
-  .card-container2,
-  .card-container3,
-  .card-container4,
-  .card-container5,
-  .card-container6 {
-    padding: 20px;
+@media (max-width: 1200px) {
+  body {
+    height: 300vh;
+  }
+}
+
+@media (max-width: 1072.9px) {
+  body {
+    height: 300vh;
   }
 }
