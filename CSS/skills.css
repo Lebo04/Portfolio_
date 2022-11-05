@@ -6,10 +6,11 @@
   box-sizing: border-box;
 }
 
-section {
+body {
   background: url(../image/hiker-looks-up-at-vertical-mountain-peaks.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 .navbar .navbar-brand {
   font-size: 30px;
@@ -229,4 +230,59 @@ footer p {
 
 .row a:hover {
   color: crimson;
+}
+
+@media screen and (max-width: 992px) {
+  img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .lefty .texty::before {
+    width: 250px;
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    width: 250px;
+    display: none;
+  }
+
+  .lefty .texty::before {
+    width: 250px;
+  }
+
+  .social a {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  .skills .skills-cont .colu {
+    width: calc(100% - 30px);
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 988px) {
+  .lefty .texty::before {
+    width:400px;
+  }
+}
+
+@media screen and (max-width: 927px) {
+  img {
+    width: 300px;
+  }
+  .lefty .texty::before {
+    width:300px;
+  }
+
 }

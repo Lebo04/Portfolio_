@@ -11,11 +11,12 @@
 }
 
 
-section {
+body {
   background: url(../image/canoe-resting-on-small-beach.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 40px;
+  height: 100vh;
 }
 
 .projects .social {

@@ -9,7 +9,8 @@
 body {
     background: url(../image/hiker-looks-up-at-vertical-mountain-peaks.jpg);
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
+    height: 100vh; 
 }
 
 .navbar .navbar-brand {
@@ -91,7 +92,7 @@ body {
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
-    margin-left: 600px;
+   text-align: center; 
   }
 
   .about .btn:hover {
@@ -118,5 +119,15 @@ body {
 
   .row a:hover {
     color: crimson;
+  }
+
+  @media screen and (max-width: 880px) {
+    .social a {
+      font-size: 20px;
+      padding: 15px;
+    }
+    .about p {
+      font-size: 15px;
+    }
   }
  
