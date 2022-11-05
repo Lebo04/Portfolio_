@@ -188,7 +188,11 @@ footer p {
 
 @media screen and (max-width: 1200px) {
   main {
-    height: 160vh;
+    height: 150vh;
+  }
+
+  .we {
+    padding-top: 60px;
   }
 }
 
@@ -197,6 +201,10 @@ footer p {
     width: 40%;
     font-size: 15px;
     font-weight: 400;
+  }
+
+  .we {
+    padding-top: 60px;
   }
 }
 
@@ -249,7 +257,7 @@ footer p {
   }
 
   main {
-    height: 220vh;
+    height: 250vh;
   }
 
   .contact .contact-cont {
@@ -301,3 +309,10 @@ footer p {
     margin-left: 0px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  main {
+    height: 180vh;
+  }
+}
+

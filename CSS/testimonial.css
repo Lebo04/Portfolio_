@@ -1,74 +1,74 @@
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .navbar .navbar-brand {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 body {
-  background: url(../Assets/image/hiker-looks-up-at-vertical-mountain-peaks.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+    background: url(../Assets/image/hiker-looks-up-at-vertical-mountain-peaks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .social {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  right: 2%;
-  transform: translateY(40%);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 2%;
+    transform: translateY(40%);
 }
 
 .social a {
-  display: block;
-  text-align: center;
-  transition: all 0.3s ease;
-  color: rgba(251, 84, 112, 0.903);
-  font-size: 25px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  margin-top: 20px;
-  padding: 20px;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: rgba(251, 84, 112, 0.903);
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 .social a:hover {
-  color: #111;
+    color: #111;
 }
 
 .title {
-  position: relative;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 600;
-  margin-bottom: 60px;
-  padding-bottom: 20px;
-  padding-top: 90px;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    padding-top: 90px;
 }
 
 .title::before {
-  content: "";
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  width: 180px;
-  height: 3px;
-  background: #111;
-  transform: translateX(-50%);
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
 }
 
 .title::after {
-  content: "";
-  position: absolute;
-  bottom: -12px;
-  left: 50%;
-  transform: translateX(-50%);
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .card-container1,
@@ -79,8 +79,8 @@ body {
 .card-container6,
 .front,
 .back {
-  width: 21rem;
-  height: 21rem;
+    width: 21rem;
+    height: 21rem;
 }
 
 .card-container1,
@@ -89,32 +89,32 @@ body {
 .card-container4,
 .card-container5,
 .card-container6 {
-  margin: 5rem;
+    margin: 5rem;
 }
 
 .front {
-  box-sizing: border-box;
-  padding: 2rem;
-  border-radius: 4px;
-  box-sizing: 0 1rem 2rem rgb(0, 0, 0, 0.25);
-  font-size: 15px;
-  text-transform: uppercase;
-  text-align: center;
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 4px;
+    box-sizing: 0 1rem 2rem rgb(0, 0, 0, 0.25);
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .back {
-  box-sizing: border-box;
-  padding: 2rem;
-  border-radius: 4px;
-  box-sizing: 0 1rem 2rem rgb(0, 0, 0, 0.25);
-  font-size: 20px;
-  text-transform: uppercase;
-  text-align: center;
-  background-color: rgba(245, 154, 169, 0.903);
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 4px;
+    box-sizing: 0 1rem 2rem rgb(0, 0, 0, 0.25);
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(245, 154, 169, 0.903);
 }
 
 .card-container5 .back {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 .card-container1,
@@ -123,21 +123,21 @@ body {
 .card-container4,
 .card-container5,
 .card-container6 {
-  position: relative;
+    position: relative;
 }
 
 .front,
 .back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  backface-visibility: hidden;
-  overflow: hidden;
-  transition: all 0.8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    overflow: hidden;
+    transition: all 0.8s ease;
 }
 
 .back {
-  transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 .card-container1:hover .front,
@@ -146,7 +146,7 @@ body {
 .card-container4:hover .front,
 .card-container5:hover .front,
 .card-container6:hover .front {
-  transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
 }
 
 .card-container1:hover .back,
@@ -155,7 +155,7 @@ body {
 .card-container4:hover .back,
 .card-container5:hover .back,
 .card-container6:hover .back {
-  transform: rotateY(0deg);
+    transform: rotateY(0deg);
 }
 
 .card-container1,
@@ -164,37 +164,49 @@ body {
 .card-container4,
 .card-container5,
 .card-container6 {
-  perspective: 30rem;
+    perspective: 30rem;
 }
 
 footer {
-  background: #111;
-  padding-top: 20px;
-  color: #fff;
+    background: #111;
+    padding-top: 20px;
+    color: #fff;
 }
 
 footer p {
-  text-align: center;
-  font-size: 10px;
-  padding: 0;
+    text-align: center;
+    font-size: 10px;
+    padding: 0;
 }
 
 .row a {
-  color: #fff;
+    color: #fff;
 }
 
 .row a:hover {
-  color: crimson;
+    color: crimson;
 }
 
 @media (max-width: 1200px) {
-  body {
-    height: 300vh;
-  }
+    body {
+        height: 300vh;
+    }
 }
 
 @media (max-width: 1072.9px) {
-  body {
-    height: 300vh;
-  }
+    body {
+        height: 300vh;
+    }
+}
+
+@media screen and (max-width:300px) {
+    body {
+        height: 700vh;
+    }
+}
+
+@media screen and (max-width:567px) {
+    body {
+        height: 700vh;
+    }
 }
